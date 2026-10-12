@@ -18,4 +18,7 @@ function filterByStatus(tasks, status) {
 function deleteTask(tasks, id) {
     return tasks.filter((task) => task.id !== id);
 }
+function countByStatus(tasks, status) {
+    return tasks.filter((task) => task.status === status).length;
+}
 //# sourceMappingURL=model.js.map
